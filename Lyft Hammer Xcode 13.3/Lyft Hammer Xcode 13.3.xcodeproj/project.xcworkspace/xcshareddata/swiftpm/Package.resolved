@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "hammer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lyft/Hammer.git",
+      "state" : {
+        "revision" : "f61b74c42534e7d294e71ee57655fde3e07da7f0",
+        "version" : "0.14.0"
+      }
+    }
+  ],
+  "version" : 2
+}

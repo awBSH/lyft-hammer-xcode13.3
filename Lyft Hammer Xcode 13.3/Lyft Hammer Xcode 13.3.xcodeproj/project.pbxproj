@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C28E3E3C27EB6729002CFDB9 /* Lyft_Hammer_Xcode_13_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E3E3B27EB6729002CFDB9 /* Lyft_Hammer_Xcode_13_3App.swift */; };
+		C28E3E3E27EB6729002CFDB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E3E3D27EB6729002CFDB9 /* ContentView.swift */; };
+		C28E3E4027EB672B002CFDB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28E3E3F27EB672B002CFDB9 /* Assets.xcassets */; };
+		C28E3E4327EB672B002CFDB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28E3E4227EB672B002CFDB9 /* Preview Assets.xcassets */; };
+		C28E3E4D27EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E3E4C27EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3Tests.swift */; };
+		C28E3E5727EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E3E5627EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3UITests.swift */; };
+		C28E3E5927EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E3E5827EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3UITestsLaunchTests.swift */; };
+		C28E3E6727EB6765002CFDB9 /* Hammer in Frameworks */ = {isa = PBXBuildFile; productRef = C28E3E6627EB6764002CFDB9 /* Hammer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C28E3E4927EB672B002CFDB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C28E3E3027EB6729002CFDB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28E3E3727EB6729002CFDB9;
+			remoteInfo = "Lyft Hammer Xcode 13.3";
+		};
+		C28E3E5327EB672B002CFDB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C28E3E3027EB6729002CFDB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28E3E3727EB6729002CFDB9;
+			remoteInfo = "Lyft Hammer Xcode 13.3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C28E3E3827EB6729002CFDB9 /* Lyft Hammer Xcode 13.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lyft Hammer Xcode 13.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28E3E3B27EB6729002CFDB9 /* Lyft_Hammer_Xcode_13_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyft_Hammer_Xcode_13_3App.swift; sourceTree = "<group>"; };
+		C28E3E3D27EB6729002CFDB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C28E3E3F27EB672B002CFDB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C28E3E4227EB672B002CFDB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C28E3E4827EB672B002CFDB9 /* Lyft Hammer Xcode 13.3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lyft Hammer Xcode 13.3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28E3E4C27EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyft_Hammer_Xcode_13_3Tests.swift; sourceTree = "<group>"; };
+		C28E3E5227EB672B002CFDB9 /* Lyft Hammer Xcode 13.3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lyft Hammer Xcode 13.3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28E3E5627EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyft_Hammer_Xcode_13_3UITests.swift; sourceTree = "<group>"; };
+		C28E3E5827EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyft_Hammer_Xcode_13_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C28E3E3527EB6729002CFDB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28E3E6727EB6765002CFDB9 /* Hammer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28E3E4527EB672B002CFDB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28E3E4F27EB672B002CFDB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C28E3E2F27EB6729002CFDB9 = {
+			isa = PBXGroup;
+			children = (
+				C28E3E3A27EB6729002CFDB9 /* Lyft Hammer Xcode 13.3 */,
+				C28E3E4B27EB672B002CFDB9 /* Lyft Hammer Xcode 13.3Tests */,
+				C28E3E5527EB672B002CFDB9 /* Lyft Hammer Xcode 13.3UITests */,
+				C28E3E3927EB6729002CFDB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C28E3E3927EB6729002CFDB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28E3E3827EB6729002CFDB9 /* Lyft Hammer Xcode 13.3.app */,
+				C28E3E4827EB672B002CFDB9 /* Lyft Hammer Xcode 13.3Tests.xctest */,
+				C28E3E5227EB672B002CFDB9 /* Lyft Hammer Xcode 13.3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28E3E3A27EB6729002CFDB9 /* Lyft Hammer Xcode 13.3 */ = {
+			isa = PBXGroup;
+			children = (
+				C28E3E3B27EB6729002CFDB9 /* Lyft_Hammer_Xcode_13_3App.swift */,
+				C28E3E3D27EB6729002CFDB9 /* ContentView.swift */,
+				C28E3E3F27EB672B002CFDB9 /* Assets.xcassets */,
+				C28E3E4127EB672B002CFDB9 /* Preview Content */,
+			);
+			path = "Lyft Hammer Xcode 13.3";
+			sourceTree = "<group>";
+		};
+		C28E3E4127EB672B002CFDB9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C28E3E4227EB672B002CFDB9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C28E3E4B27EB672B002CFDB9 /* Lyft Hammer Xcode 13.3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C28E3E4C27EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3Tests.swift */,
+			);
+			path = "Lyft Hammer Xcode 13.3Tests";
+			sourceTree = "<group>";
+		};
+		C28E3E5527EB672B002CFDB9 /* Lyft Hammer Xcode 13.3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C28E3E5627EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3UITests.swift */,
+				C28E3E5827EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3UITestsLaunchTests.swift */,
+			);
+			path = "Lyft Hammer Xcode 13.3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C28E3E3727EB6729002CFDB9 /* Lyft Hammer Xcode 13.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28E3E5C27EB672B002CFDB9 /* Build configuration list for PBXNativeTarget "Lyft Hammer Xcode 13.3" */;
+			buildPhases = (
+				C28E3E3427EB6729002CFDB9 /* Sources */,
+				C28E3E3527EB6729002CFDB9 /* Frameworks */,
+				C28E3E3627EB6729002CFDB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lyft Hammer Xcode 13.3";
+			packageProductDependencies = (
+				C28E3E6627EB6764002CFDB9 /* Hammer */,
+			);
+			productName = "Lyft Hammer Xcode 13.3";
+			productReference = C28E3E3827EB6729002CFDB9 /* Lyft Hammer Xcode 13.3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C28E3E4727EB672B002CFDB9 /* Lyft Hammer Xcode 13.3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28E3E5F27EB672B002CFDB9 /* Build configuration list for PBXNativeTarget "Lyft Hammer Xcode 13.3Tests" */;
+			buildPhases = (
+				C28E3E4427EB672B002CFDB9 /* Sources */,
+				C28E3E4527EB672B002CFDB9 /* Frameworks */,
+				C28E3E4627EB672B002CFDB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C28E3E4A27EB672B002CFDB9 /* PBXTargetDependency */,
+			);
+			name = "Lyft Hammer Xcode 13.3Tests";
+			productName = "Lyft Hammer Xcode 13.3Tests";
+			productReference = C28E3E4827EB672B002CFDB9 /* Lyft Hammer Xcode 13.3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C28E3E5127EB672B002CFDB9 /* Lyft Hammer Xcode 13.3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28E3E6227EB672B002CFDB9 /* Build configuration list for PBXNativeTarget "Lyft Hammer Xcode 13.3UITests" */;
+			buildPhases = (
+				C28E3E4E27EB672B002CFDB9 /* Sources */,
+				C28E3E4F27EB672B002CFDB9 /* Frameworks */,
+				C28E3E5027EB672B002CFDB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C28E3E5427EB672B002CFDB9 /* PBXTargetDependency */,
+			);
+			name = "Lyft Hammer Xcode 13.3UITests";
+			productName = "Lyft Hammer Xcode 13.3UITests";
+			productReference = C28E3E5227EB672B002CFDB9 /* Lyft Hammer Xcode 13.3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C28E3E3027EB6729002CFDB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C28E3E3727EB6729002CFDB9 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C28E3E4727EB672B002CFDB9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C28E3E3727EB6729002CFDB9;
+					};
+					C28E3E5127EB672B002CFDB9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C28E3E3727EB6729002CFDB9;
+					};
+				};
+			};
+			buildConfigurationList = C28E3E3327EB6729002CFDB9 /* Build configuration list for PBXProject "Lyft Hammer Xcode 13.3" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C28E3E2F27EB6729002CFDB9;
+			packageReferences = (
+				C28E3E6527EB6764002CFDB9 /* XCRemoteSwiftPackageReference "Hammer" */,
+			);
+			productRefGroup = C28E3E3927EB6729002CFDB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C28E3E3727EB6729002CFDB9 /* Lyft Hammer Xcode 13.3 */,
+				C28E3E4727EB672B002CFDB9 /* Lyft Hammer Xcode 13.3Tests */,
+				C28E3E5127EB672B002CFDB9 /* Lyft Hammer Xcode 13.3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C28E3E3627EB6729002CFDB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28E3E4327EB672B002CFDB9 /* Preview Assets.xcassets in Resources */,
+				C28E3E4027EB672B002CFDB9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28E3E4627EB672B002CFDB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28E3E5027EB672B002CFDB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C28E3E3427EB6729002CFDB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28E3E3E27EB6729002CFDB9 /* ContentView.swift in Sources */,
+				C28E3E3C27EB6729002CFDB9 /* Lyft_Hammer_Xcode_13_3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28E3E4427EB672B002CFDB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28E3E4D27EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28E3E4E27EB672B002CFDB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28E3E5727EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3UITests.swift in Sources */,
+				C28E3E5927EB672B002CFDB9 /* Lyft_Hammer_Xcode_13_3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C28E3E4A27EB672B002CFDB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28E3E3727EB6729002CFDB9 /* Lyft Hammer Xcode 13.3 */;
+			targetProxy = C28E3E4927EB672B002CFDB9 /* PBXContainerItemProxy */;
+		};
+		C28E3E5427EB672B002CFDB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28E3E3727EB6729002CFDB9 /* Lyft Hammer Xcode 13.3 */;
+			targetProxy = C28E3E5327EB672B002CFDB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C28E3E5A27EB672B002CFDB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C28E3E5B27EB672B002CFDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C28E3E5D27EB672B002CFDB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lyft Hammer Xcode 13.3/Preview Content\"";
+				DEVELOPMENT_TEAM = HU8CS4MVFP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bshg.Lyft-Hammer-Xcode-13-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C28E3E5E27EB672B002CFDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lyft Hammer Xcode 13.3/Preview Content\"";
+				DEVELOPMENT_TEAM = HU8CS4MVFP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bshg.Lyft-Hammer-Xcode-13-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C28E3E6027EB672B002CFDB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU8CS4MVFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bshg.Lyft-Hammer-Xcode-13-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyft Hammer Xcode 13.3.app/Lyft Hammer Xcode 13.3";
+			};
+			name = Debug;
+		};
+		C28E3E6127EB672B002CFDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU8CS4MVFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bshg.Lyft-Hammer-Xcode-13-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyft Hammer Xcode 13.3.app/Lyft Hammer Xcode 13.3";
+			};
+			name = Release;
+		};
+		C28E3E6327EB672B002CFDB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU8CS4MVFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bshg.Lyft-Hammer-Xcode-13-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lyft Hammer Xcode 13.3";
+			};
+			name = Debug;
+		};
+		C28E3E6427EB672B002CFDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU8CS4MVFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bshg.Lyft-Hammer-Xcode-13-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lyft Hammer Xcode 13.3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C28E3E3327EB6729002CFDB9 /* Build configuration list for PBXProject "Lyft Hammer Xcode 13.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28E3E5A27EB672B002CFDB9 /* Debug */,
+				C28E3E5B27EB672B002CFDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28E3E5C27EB672B002CFDB9 /* Build configuration list for PBXNativeTarget "Lyft Hammer Xcode 13.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28E3E5D27EB672B002CFDB9 /* Debug */,
+				C28E3E5E27EB672B002CFDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28E3E5F27EB672B002CFDB9 /* Build configuration list for PBXNativeTarget "Lyft Hammer Xcode 13.3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28E3E6027EB672B002CFDB9 /* Debug */,
+				C28E3E6127EB672B002CFDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28E3E6227EB672B002CFDB9 /* Build configuration list for PBXNativeTarget "Lyft Hammer Xcode 13.3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28E3E6327EB672B002CFDB9 /* Debug */,
+				C28E3E6427EB672B002CFDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C28E3E6527EB6764002CFDB9 /* XCRemoteSwiftPackageReference "Hammer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lyft/Hammer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C28E3E6627EB6764002CFDB9 /* Hammer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C28E3E6527EB6764002CFDB9 /* XCRemoteSwiftPackageReference "Hammer" */;
+			productName = Hammer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C28E3E3027EB6729002CFDB9 /* Project object */;
+}
